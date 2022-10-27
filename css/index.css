@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  background-color: #051717;
+  width: 100%;
+  height: 100vh;
+}
+
+.wrapper {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.logo-container {
+  padding-top: 42px;
+}
+
+.main {
+  width: 100%;
+  margin-top: 233px;
+  text-align: center;
+}
+
+.main-header {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 135px;
+  line-height: 100%;
+  letter-spacing: -0.06em;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+}
+
+#line-web {
+  display: inline-block;
+  position: absolute;
+  top: 0px;
+  right: 100px;
+}
+
+#line-mobile {
+  display: none;
+}
+
+.main-description {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20.4728px;
+  line-height: 100%;
+  letter-spacing: 0.42em;
+  color: #ffffff;
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer {
+  width: 100%;
+  margin-top: 200px;
+  text-align: center;
+}
+
+.footer a {
+  text-decoration: none;
+  cursor: pointer;
+  padding: 0px;
+}
+
+.footer a img {
+  width: 24px;
+  height: 24px;
+}
+
+.footer-main {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20.4728px;
+  line-height: 100%;
+  letter-spacing: 0.095em;
+  color: #ffffff;
+}
+
+@media only screen and (max-width: 600px) {
+  .logo-container {
+    padding-top: 21px;
+  }
+
+  .wrapper {
+    width: 80%;
+  }
+
+  .main {
+    width: 90%;
+    margin-top: 283px;
+    text-align: center;
+  }
+
+  #line-web {
+    display: none;
+  }
+
+  #line-mobile {
+    display: inline-block;
+    position: absolute;
+    top: 0px;
+    right: -50px;
+  }
+
+  .main-header {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 61.7041px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: -0.06em;
+    color: #ffffff;
+  }
+
+  .main-description {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12.9996px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 0.42em;
+    color: #ffffff;
+  }
+
+  .footer {
+    width: 100%;
+    margin-top: 260px;
+    text-align: center;
+  }
+
+  .footer a {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0px;
+  }
+
+  .footer a img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .footer-main {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.0157px;
+    line-height: 130%;
+    text-align: center;
+    letter-spacing: 0.095em;
+    color: #ffffff;
+  }
+}
